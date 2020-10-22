@@ -16,8 +16,7 @@ import { LandTechComponent } from './land-tech/land-tech.component';
 import { LandLegalComponent } from './land-legal/land-legal.component';
 import { TechnicalComponent } from './technical/technical.component';
 import { LegalComponent } from './legal/legal.component';
-import { SubTechnicalComponent } from './sub-technical/sub-technical.component';
-import { SubLegalComponent } from './sub-legal/sub-legal.component';
+
 
 @NgModule({
   declarations: [
@@ -33,8 +32,6 @@ import { SubLegalComponent } from './sub-legal/sub-legal.component';
     LandLegalComponent,
     TechnicalComponent,
     LegalComponent,
-    SubTechnicalComponent,
-    SubLegalComponent
   ],
   imports: [
     BrowserModule,

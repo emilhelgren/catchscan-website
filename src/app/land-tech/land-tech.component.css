@@ -1,6 +1,6 @@
 
 h1, h2, h4, p {
-    color:#f26d21;
+    color:white;
 }
 
 h1 {
@@ -15,11 +15,6 @@ p {
 
 }
 
-.landing-img {
-    max-width:100%;
-    max-height: 100%;
-    
-}
 
 .landing-content {
     padding-top: 2rem;
@@ -29,19 +24,19 @@ p {
 div.landing-content {
     width: 40%; 
     text-align: left;
-    margin-left: 10%;
+    margin-left: 50%;
 }
 
 .landing-wrapper {
     height: 800px;
     /*background: #f26d21;
     /*background: url('/../assets/images/random_stock/nature1.jpg'); /* fallback */
-    background-image: linear-gradient(to bottom, rgba(255,255,255,0.6), rgba(242,109,33, 0.1)), url('/../assets/images/landing-page/technical.jpg');
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.3), rgba(242,109,33, 0.1)), url('/../assets/images/landing-page/technical2.jpg');
     
     
     background-repeat: no-repeat;
     background-position: center;
-    background-size: auto 100%;
+    background-size: auto 110%;
     /*background-image: url('/../assets/images/random_stock/nature1.jpg');
 
     background-color: wheat;*/

@@ -4,8 +4,6 @@ h1, h2, h4, p {
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-style: italic;
     font-weight: bold;
 }
 
@@ -13,10 +11,6 @@ h2, h4 {
     font-family: Helvetica;
 }
 
-p {
-    /* forsøg på outline */
-    text-decoration: solid 5px black;
-}
 
 .landing-img {
     max-width:100%;
@@ -33,9 +27,8 @@ p {
     text-align: center;
     height: 800px;
     /*background: #f26d21;
-    /*background: url('/../assets/images/random_stock/nature1.jpg'); /* fallback */
+    /* https://www.pexels.com/photo/money-on-top-of-a-stack-of-books-5632406/ */
     background-image: linear-gradient(to bottom, rgba(255,255,255,0.6), rgba(242,109,33, 0.1)), url('/../assets/images/landing-page/legal.jpg');
-    
     
     background-repeat: no-repeat;
     background-position: center;
