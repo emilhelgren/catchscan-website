@@ -1,0 +1,23 @@
+.footer{
+    background: #f26d21;
+    color: white;
+    margin: 0 !important;
+}
+
+.footer-content {
+    color: #475eb3;
+}
+
+.btn-some {
+    color: #475eb3;
+    /*  border: solid 2px black; 
+    position:relative;
+    left:-3%;*/
+    padding-left: 0;
+    padding-right: 20px;
+}
+
+.footer-text {
+    color: wheat;
+}
+

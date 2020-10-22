@@ -1,0 +1,51 @@
+
+h1, h2, h4, p {
+    color:#f26d21;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+}
+
+h2, h4 {
+    font-family: Helvetica;
+}
+
+p {
+    /* forsøg på outline */
+    text-decoration: solid 5px black;
+    text-shadow: 0.01rem 0 0 #000, 0 -0.01rem 0 #000, 0 0.01rem 0 #000, -0.01rem 0 0 #000 !important;
+}
+
+.landing-img {
+    max-width:100%;
+    max-height: 100%;
+    
+}
+
+.landing-content {
+    padding-top: 2rem;
+    
+}
+
+.landing-wrapper {
+    text-align: center;
+    height: 800px;
+    /*background: #f26d21;
+    /*background: url('/../assets/images/random_stock/nature1.jpg'); /* fallback */
+    background-image: linear-gradient(to bottom, rgba(255,255,255,0.6), rgba(242,109,33, 0.1)), url('/../assets/images/random_stock/nature1.jpg');
+    
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%;
+    /*background-image: url('/../assets/images/random_stock/nature1.jpg');
+
+    background-color: wheat;*/
+}
+
+.landing-text {
+    color: rgb(230, 178, 81);
+}

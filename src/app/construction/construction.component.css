@@ -1,0 +1,46 @@
+
+h1 {
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 50px;
+}
+.optional-text {
+    font-size: 8px;
+    display: inline;
+    color: white;
+    vertical-align: top;
+    
+}
+
+.orange-bg {
+    background: white;
+    color:#f26d21;
+}
+.orange-bg:hover {
+    border: solid 1px #f26e21a2;
+    color: white;
+    background-color:  #f26e21a2 !important;
+    box-shadow: 0 1px 1px rgba(255, 255, 255, 0.075);
+}
+
+
+h3 {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form-group {
+    width: 50%;
+    margin-left: 25%;
+}
+
+.form-panel {
+    position: -webkit-sticky; /* Safari */ 
+    position: sticky;
+    top: 120px;  /* de 100px kommer fra height property på nav-bar -- bliver vidst ikke rigtig brugt mere*/
+    background-color:   #f26d21;
+    border-radius: 20px 20px 0 0;
+    /*min-height: 100vh;*/
+    vertical-align: top;
+    padding-bottom: 50px;
+}

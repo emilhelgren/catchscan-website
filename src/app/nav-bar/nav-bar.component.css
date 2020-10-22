@@ -1,0 +1,55 @@
+.nav-text {
+    color: #f26d21 !important;
+    @include hover {
+        color: $link-hover-color;
+        text-decoration: $link-hover-decoration;
+      }
+}
+
+.vline {
+    border-right: solid 1px #f26d21;
+    border-radius: 0%;
+}
+
+
+.navbar {
+    background-color: white;
+    height: 120px; /* de 100px benyttes i top property på construction component */
+}
+
+
+.navbar-content {
+    
+}
+
+/*
+.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}*/
+
+.navbar-toggler {
+    background-color: #f26d21;
+}
+
+.collapse {
+    background-color: white;;
+}
+
+.collapse-content {
+    border-radius: 5%;
+}
+
+
+/*
+
+.navbar-brand {
+    margin-left: 5%;
+}
+
+@media (max-width: 480px) {
+    .navbar-brand {
+        margin-left: 0;
+    }
+}*/

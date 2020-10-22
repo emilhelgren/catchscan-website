@@ -1,0 +1,39 @@
+
+
+<div class="form-panel">
+
+
+  <h1 class="white">Enter your information below <br/>to register for the launch</h1>
+
+
+  <form [formGroup]="registrationForm" (ngSubmit)="onSubmit(registrationForm.value)" class="registrationForm">
+
+      <div class="form-group">
+        <label for="name" class="white">
+          Name
+        </label>
+        <input id="name" type="text" formControlName="name" class="form-control">
+      </div>
+
+      <div class="form-group">
+        <label for="email" class="white">
+          Email
+        </label>
+        <input id="email" type="text" formControlName="email" class="form-control">
+      </div>
+      <div class="form-group">
+        <label for="insta" class="white"  >
+          Instagram link 
+        </label>
+        <p class="optional-text">  *optional</p>
+        <input id="insta" type="text" formControlName="insta" class="form-control">
+      </div>
+    <div class="center-btn">
+      <button class="btn btn-primary orange-bg shadow-none" type="submit">Submit</button>
+    </div>
+    
+  </form>
+
+</div>
+
+
