@@ -20,22 +20,38 @@ p {
     padding-top: 2rem;
     
 }
+@media screen and (max-width: 600px) {
+    div.landing-content {
+        width: 90%;
+        padding-left: 5vw;
+        text-align: left;
+    }
+    .landing-wrapper {
+        background-position: right;
+    }
 
-div.landing-content {
-    width: 40%; 
-    text-align: left;
-    margin-left: 50%;
-}
+    
+  }
+  @media screen and (min-width: 601px) {
+    div.landing-content {
+        width: 40%; 
+        text-align: left;
+        margin-left: 50%;
+    }
+    
+    .landing-wrapper {
+        background-position: center;
+    }
+    
+  }
 
 .landing-wrapper {
     height: 800px;
     /*background: #f26d21;
     /*background: url('/../assets/images/random_stock/nature1.jpg'); /* fallback */
     background-image: linear-gradient(to bottom, rgba(255,255,255,0.3), rgba(242,109,33, 0.1)), url('/../assets/images/landing-page/technical2.jpg');
-    
-    
     background-repeat: no-repeat;
-    background-position: center;
+    
     background-size: auto 110%;
     /*background-image: url('/../assets/images/random_stock/nature1.jpg');
 
